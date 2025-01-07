@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Says Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <h1>Simon Says Game</h1>
@@ -22,6 +23,29 @@
         </div>
         
     </div>
+
+
+    <div class="help">
+        <i class="fa-solid fa-circle-info"></i>
+    </div>
+
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>How to Play Simon Says</h2>
+          <p>The instructions to play Simon Says:</p>
+          <ul>
+            <li>In this memory-based game, a sequence of colors will light up one by one.</li>
+            <li>Your goal is to repeat the sequence of colors in the exact same order as Simon shows you.</li>
+            <li>The sequence will start with one color, and each time you repeat the sequence correctly, it will get longer.</li>
+            <li>If Simon shows a color, you must click the corresponding button. If you fail to follow the correct order, you lose the game.</li>
+            <li>Each button will blink in the correct order, and you must remember and repeat that order.</li>
+            <li>Keep going until you make a mistake, and try to beat your high score!</li>
+          </ul>
+          <p>Good luck and have fun!</p>
+
+        </div>
+      </div>
 
     <script src="app.js"></script>
 </body>
